@@ -100,5 +100,6 @@ export const googleAuthCallback = (req, res) => {
     maxAge: 3600000, // 1 hour
   });
 
-  res.redirect("http://localhost:5173/dashboard"); // Redirect to your client-side dashboard
+  // res.redirect("http://localhost:5173/dashboard"); 
+  res.redirect("https://subsum-five.vercel.app/dashboard"); 
 };
